@@ -29,23 +29,23 @@ A high-performance Flutter application that displays photos with efficient JSON 
 - lib/
 - ├── data/
 - │ └── models/
-- │ └── photo.dart # Photo data model
+- │ ---└── photo.dart # Photo data model
 - ├── domain/
 - │ └── providers/
-- │ ├── photo_provider.dart # Photo data state
-- │ ├── ui_provider.dart # UI state management
-- │ └── providers.dart # Provider exports
+- │ ---├── photo_provider.dart # Photo data state
+- │ ---├── ui_provider.dart # UI state management
+- │ ---└── providers.dart # Provider exports
 - ├── utils/
 - │ └── services/
-- │ └── json_parser.dart # JSON parsing service
+- │ ---└── json_parser.dart # JSON parsing service
 - ├── ui/
 - │ ├── pages/
 - │ │ └── home_page.dart # Main screen
 - │ └── widgets/
-- │ ├── filter_dialog.dart # Album filter UI
-- │ ├── photo_item.dart # Single photo card
-- │ ├── photo_list.dart # Scrollable list
-- │ └── sort_dialog.dart # Sorting options
+- │ ---├── filter_dialog.dart # Album filter UI
+- │ ---├── photo_item.dart # Single photo card
+- │ ---├── photo_list.dart # Scrollable list
+- │ ---└── sort_dialog.dart # Sorting options
 - └── main.dart # App entry point
 
 ## 🛠️ Tech Stack
@@ -58,17 +58,3 @@ A high-performance Flutter application that displays photos with efficient JSON 
 | Image Loading    | cached_network_image |
 | JSON Parsing     | Dart Isolates        |
 | UI Toolkit       | Material 3           |
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Flutter SDK (>=3.19.0)
-- Dart SDK (>=3.0.0)
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/photo-gallery-app.git
-   cd photo-gallery-app
