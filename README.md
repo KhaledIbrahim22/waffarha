@@ -5,7 +5,7 @@
 ![Riverpod](https://img.shields.io/badge/State%20Management-Riverpod-blueviolet)
 ![Isolates](https://img.shields.io/badge/Concurrency-Isolates-green)
 
-A high-performance Flutter application that displays photos with efficient JSON parsing, pagination, sorting, and filtering capabilities.
+A high-performance Flutter application that displays list of data with efficient JSON parsing, pagination, sorting, and filtering capabilities.
 
 ## 🌟 Key Features
 
@@ -52,12 +52,11 @@ A high-performance Flutter application that displays photos with efficient JSON 
 
 | Component        | Technology           |
 |------------------|----------------------|
-| Framework        | Flutter 3.19         |
-| Language         | Dart 3.0             |
-| State Management | Riverpod             |
+| Framework        | Flutter 3.32.0       |
+| Language         | Dart 3.8.0           |
 | Image Loading    | cached_network_image |
+| State Management | Riverpod             |
 | JSON Parsing     | Dart Isolates        |
-| UI Toolkit       | Material 3           |
 
 ## 📱 App Screenshots
 
