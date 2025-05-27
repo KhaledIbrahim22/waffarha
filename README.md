@@ -59,12 +59,10 @@ A high-performance Flutter application that displays photos with efficient JSON 
 | JSON Parsing     | Dart Isolates        |
 | UI Toolkit       | Material 3           |
 
-![App Screenshot](screens/Screenshot_1.png)
-
 ## 📱 App Screenshots
 
 <div align="center">
-  <img src="screens/Screenshot_1.png" width="30%" alt="Home Screen"/>
-  <img src="screens/Screenshot_2.png" width="30%" alt="Sort Dialog"/> 
-  <img src="screens/Screenshot_3.png" width="30%" alt="Filter Dialog"/>
+  <img src="screens/Screenshot_1.png" width="25%" alt="Home Screen"/>
+  <img src="screens/Screenshot_2.png" width="25%" alt="Sort Dialog"/> 
+  <img src="screens/Screenshot_3.png" width="25%" alt="Filter Dialog"/>
 </div>
