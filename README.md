@@ -29,24 +29,24 @@ A high-performance Flutter application that displays photos with efficient JSON 
 - lib/
 - ├── data/
 - │ └── models/
-- │ │ └── photo.dart ─────────── # Photo data model
+- │ │ └── photo.dart # Photo data model
 - ├── domain/
 - │ └── providers/
-- │ │ ├── photo_provider.dart ── # Photo data state
-- │ │ ├── ui_provider.dart ───── # UI state management
-- │ │ └── providers.dart ─────── # Provider exports
+- │ │ ├── photo_provider.dart # Photo data state
+- │ │ ├── ui_provider.dart # UI state management
+- │ │ └── providers.dart # Provider exports
 - ├── ui/
 - │ ├── pages/
-- │ │ └── home_page.dart ─────── # Main screen
+- │ │ └── home_page.dart # Main screen
 - │ └── widgets/
-- │ │ ├── filter_dialog.dart ─── # Album filter UI
-- │ │ ├── photo_item.dart ────── # Single photo card
-- │ │ ├── photo_list.dart ────── # Scrollable list
-- │ │ └── sort_dialog.dart ───── # Sorting options
+- │ │ ├── filter_dialog.dart # Album filter UI
+- │ │ ├── photo_item.dart # Single photo card
+- │ │ ├── photo_list.dart # Scrollable list
+- │ │ └── sort_dialog.dart # Sorting options
 - ├── utils/
 - │ └── services/
-- │ │ └── json_parser.dart ───── # JSON parsing service
-- └── main.dart ──────────────── # App entry point
+- │ │ └── json_parser.dart # JSON parsing service
+- └── main.dart # App entry point
 
 ## 🛠️ Tech Stack
 
