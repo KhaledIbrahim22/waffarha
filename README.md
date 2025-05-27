@@ -1,7 +1,7 @@
 # 📸 Photo Gallery App - Flutter Challenge
 
-![Flutter](https://img.shields.io/badge/Flutter-3.19-blue)
-![Dart](https://img.shields.io/badge/Dart-3.0-blue)
+![Flutter](https://img.shields.io/badge/Flutter-3.32.0-blue)
+![Dart](https://img.shields.io/badge/Dart-3.8.0-blue)
 ![Riverpod](https://img.shields.io/badge/State%20Management-Riverpod-blueviolet)
 ![Isolates](https://img.shields.io/badge/Concurrency-Isolates-green)
 
