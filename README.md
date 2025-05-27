@@ -35,9 +35,6 @@ A high-performance Flutter application that displays photos with efficient JSON 
 - │ │ ├── photo_provider.dart # Photo data state
 - │ │ ├── ui_provider.dart # UI state management
 - │ │ └── providers.dart # Provider exports
-- ├── utils/
-- │ └── services/
-- │ │ └── json_parser.dart # JSON parsing service
 - ├── ui/
 - │ ├── pages/
 - │ │ └── home_page.dart # Main screen
@@ -46,6 +43,9 @@ A high-performance Flutter application that displays photos with efficient JSON 
 - │ │ ├── photo_item.dart # Single photo card
 - │ │ ├── photo_list.dart # Scrollable list
 - │ │ └── sort_dialog.dart # Sorting options
+- ├── utils/
+- │ └── services/
+- │ │ └── json_parser.dart # JSON parsing service
 - └── main.dart # App entry point
 
 ## 🛠️ Tech Stack
@@ -58,3 +58,13 @@ A high-performance Flutter application that displays photos with efficient JSON 
 | Image Loading    | cached_network_image |
 | JSON Parsing     | Dart Isolates        |
 | UI Toolkit       | Material 3           |
+
+![App Screenshot](screens/Screenshot_1.png)
+
+## 📱 App Screenshots
+
+<div align="center">
+  <img src="screens/Screenshot_1.png" width="30%" alt="Home Screen"/>
+  <img src="screens/Screenshot_2.png" width="30%" alt="Sort Dialog"/> 
+  <img src="screens/Screenshot_3.png" width="30%" alt="Filter Dialog"/>
+</div>
